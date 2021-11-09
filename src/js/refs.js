@@ -4,6 +4,6 @@ export default function getRefs() {
         galleryRef: document.querySelector('.gallery'),
         inputRef: document.querySelector('#input-js'),
         body: document.querySelector('body'),
-        checkbox: document.querySelector('#theme-switch-toggle')
+       
     }
 }

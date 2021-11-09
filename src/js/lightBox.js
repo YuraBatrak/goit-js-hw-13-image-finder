@@ -11,7 +11,7 @@ function onImageClick(e) {
     e.preventDefault();
 
     const bigImgSrc = e.target.getAttribute('data-src');
-    const instance = basicLightbox.create(`<img src=${bigImgSrc}/>`);
+    const instance = basicLightbox.create(`<img src=${bigImgSrc} />`);
   
     instance.show();
 }

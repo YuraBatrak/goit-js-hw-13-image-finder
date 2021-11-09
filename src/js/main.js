@@ -17,7 +17,7 @@ loadMoreBtn.refs.button.addEventListener('click', fetchArticles);
 function onSearch(e) {
   e.preventDefault();
 
-  imagesApiService.query = e.currentTarget.elements.query.value;
+  imagesApiService.query = e.currentTarget.elements.query.value.trim();
     
     if (imagesApiService.query === '') {
         return notice({
